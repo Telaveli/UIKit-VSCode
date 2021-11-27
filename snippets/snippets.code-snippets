@@ -8,13 +8,13 @@
             "\t\t<title>$2</title>",
             "\t\t<meta charset=\"UTF-8\">",
             "\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
-            "\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.9/css/${3|uikit,uikit-core,uikit-rtl,uikit-core-rtl|}.min.css\"/>",
+            "\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.9.4/css/${3|uikit,uikit-core,uikit-rtl,uikit-core-rtl|}.min.css\"/>",
             "\t\t<link href=\"${4:css/styles.css}\" rel=\"stylesheet\">",
             "\t</head>",
             "\t<body>",
             "\t\t$0",
-            "\r\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.9/js/uikit.min.js\" \r\t\t\t\tintegrity=\"sha512-OZ9Sq7ecGckkqgxa8t/415BRNoz2GIInOsu8Qjj99r9IlBCq2XJlm9T9z//D4W1lrl+xCdXzq0EYfMo8DZJ+KA==\" crossorigin=\"anonymous\"></script>",
-            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.9/js/uikit-icons.min.js\" \r\t\t\t\tintegrity=\"sha512-hcz3GoZLfjU/z1OyArGvM1dVgrzpWcU3jnYaC6klc2gdy9HxrFkmoWmcUYbraeS+V/GWSgfv6upr9ff4RVyQPw==\" crossorigin=\"anonymous\"></script>",
+            "\r\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.9.4/js/uikit.min.js\" \r\t\t\t\tintegrity=\"sha512-HrOabH0q8HnOwCVtR2lvwgRYoHtI0V2zC0ii6Kt0xfKDWhvNrTM3TqQv4EIYjt5NlyowqHhjBJ2gheJ/BfoPnQ==\" crossorigin=\"anonymous\"></script>",
+            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.9.4/js/uikit-icons.min.js\" \r\t\t\t\tintegrity=\"sha512-ZN3+/fQI4kCvbrvd9em65IXBx8PtRcc+RsVgZIBIyEoO0CbXcUOL8sLLxQsmytTwg6Jm91fnDS6Xkaw48zB8Eg==\" crossorigin=\"anonymous\"></script>",
             "\t</body>",
             "</html>"
         ],
@@ -23,23 +23,23 @@
     "snippet-uk-$-css-import": {
         "prefix": "uk-$-css-import",
         "body": [
-            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.9/css/${0|uikit,uikit-core,uikit-rtl,uikit-core-rtl|}.min.css\"/>"
+            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.9.4/css/${0|uikit,uikit-core,uikit-rtl,uikit-core-rtl|}.min.css\"/>"
         ],
         "description": "Imports a chosen minified css file for UIKit"
     },
     "snippet-uk-$-js-import": {
         "prefix": "uk-$-js-import",
         "body": [
-            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.9/js/uikit.min.js\" \r\tintegrity=\"sha512-OZ9Sq7ecGckkqgxa8t/415BRNoz2GIInOsu8Qjj99r9IlBCq2XJlm9T9z//D4W1lrl+xCdXzq0EYfMo8DZJ+KA==\" crossorigin=\"anonymous\"></script>",
-            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.9/js/uikit-icons.min.js\" \r\tintegrity=\"sha512-hcz3GoZLfjU/z1OyArGvM1dVgrzpWcU3jnYaC6klc2gdy9HxrFkmoWmcUYbraeS+V/GWSgfv6upr9ff4RVyQPw==\" crossorigin=\"anonymous\"></script>"
+            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.9.4/js/uikit.min.js\" \r\tintegrity=\"sha512-HrOabH0q8HnOwCVtR2lvwgRYoHtI0V2zC0ii6Kt0xfKDWhvNrTM3TqQv4EIYjt5NlyowqHhjBJ2gheJ/BfoPnQ==\" crossorigin=\"anonymous\"></script>",
+            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.9.4/js/uikit-icons.min.js\" \r\tintegrity=\"sha512-ZN3+/fQI4kCvbrvd9em65IXBx8PtRcc+RsVgZIBIyEoO0CbXcUOL8sLLxQsmytTwg6Jm91fnDS6Xkaw48zB8Eg==\" crossorigin=\"anonymous\"></script>"
         ],
         "description": "Imports the default minified scripts for UIKit"
     },
     "snippet-uk-$-js-component-import": {
         "prefix": "uk-$-js-component-import",
         "body": [
-            "$BLOCK_COMMENT_START Manually add SRI by visiting https://cdnjs.com/libraries/uikit/3.5.9 $BLOCK_COMMENT_END",
-            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.9/js/components/${1|countdown,filter,lightbox,lightbox-panel,notification,parallax,slider,slider-parallax,slideshow,sortable,tooltip,upload|}.min.js\"></script>"
+            "$BLOCK_COMMENT_START Manually add SRI by visiting https://cdnjs.com/libraries/uikit/3.9.4 $BLOCK_COMMENT_END",
+            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.9.4/js/components/${1|countdown,filter,lightbox,lightbox-panel,notification,parallax,slider,slider-parallax,slideshow,sortable,tooltip,upload|}.min.js\"></script>"
         ],
         "description": "Imports a selected js component file for UIKit"
     },
