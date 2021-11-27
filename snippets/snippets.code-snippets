@@ -20,6 +20,28 @@
         ],
         "description": "Creates a basic UIKit template"
     },
+    "snippet-uk-$-defer": {
+        "prefix": "uk-$-defer",
+        "body": [
+            "<!DOCTYPE html>",
+            "<html lang=\"${1:en}\">",
+            "\t<head>",
+            "\t\t<title>$2</title>",
+            "\t\t<meta charset=\"UTF-8\">",
+            "\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+            "\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.9.4/css/${3|uikit,uikit-core,uikit-rtl,uikit-core-rtl|}.min.css\"/>",
+            "\t\t<link href=\"${4:css/styles.css}\" rel=\"stylesheet\">",
+            "\r\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.9.4/js/uikit.min.js\" \r\t\t\t\tintegrity=\"sha512-HrOabH0q8HnOwCVtR2lvwgRYoHtI0V2zC0ii6Kt0xfKDWhvNrTM3TqQv4EIYjt5NlyowqHhjBJ2gheJ/BfoPnQ==\" crossorigin=\"anonymous\" defer></script>",
+            "\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/uikit/3.9.4/js/uikit-icons.min.js\" \r\t\t\t\tintegrity=\"sha512-ZN3+/fQI4kCvbrvd9em65IXBx8PtRcc+RsVgZIBIyEoO0CbXcUOL8sLLxQsmytTwg6Jm91fnDS6Xkaw48zB8Eg==\" crossorigin=\"anonymous\" defer></script>",
+            "\t</head>",
+            "\t<body>",
+            "\t\t$0",
+            
+            "\t</body>",
+            "</html>"
+        ],
+        "description": "Creates a basic UIKit template with js in Header"
+    },
     "snippet-uk-$-css-import": {
         "prefix": "uk-$-css-import",
         "body": [
